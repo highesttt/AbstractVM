@@ -1,0 +1,11 @@
+push int8(1)
+store int8(0)
+load int8(0)
+store int8(1)
+load int8(1)
+store int8(2)
+load int8(2)
+load int8(1)
+load int8(0)
+dump
+exit

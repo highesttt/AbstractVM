@@ -1,0 +1,62 @@
+push int8(1)
+push int16(2)
+add
+
+assert int16(3)
+
+push int32(-1)
+mul
+
+assert int32(-3)
+
+push float(3.14)
+div
+
+assert float(-0.955414)
+
+push double(2.1)
+sub
+
+assert double(-3.055414)
+
+dump
+pop
+
+push int32(1)
+push int32(2)
+push int32(3)
+dump
+
+store int8(2)
+push int32(1)
+dump
+
+clear
+dump
+
+push int32(1)
+dup
+dump
+
+clear
+
+push int8(3)
+push int8(9)
+swap
+dump
+
+swap
+mod
+dump
+
+push int8(48)
+add
+
+print
+
+clear
+
+load int8(2)
+dump
+
+exit

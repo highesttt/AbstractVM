@@ -1,0 +1,5 @@
+push float(240282346638528859811704183484516925440)
+push float(0.5)
+div
+dump
+exit

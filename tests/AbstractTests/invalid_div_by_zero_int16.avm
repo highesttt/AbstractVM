@@ -1,0 +1,4 @@
+push int16(1)
+push int16(0)
+div
+exit

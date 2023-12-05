@@ -1,0 +1,5 @@
+push float(99999999)
+push float(100000000)
+div
+dump
+exit

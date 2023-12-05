@@ -1,0 +1,3 @@
+punsh int32(5)
+dump
+exit

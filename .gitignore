@@ -1,0 +1,15 @@
+# compilated files
+*.o
+
+# program executable
+abstractVM
+
+# vscode
+.vscode
+
+# criterion tests
+*.gcda
+*.gcno
+*.gcov
+unit_tests
+html

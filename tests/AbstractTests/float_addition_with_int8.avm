@@ -1,0 +1,5 @@
+push float(2.1)
+push int8(3)
+add
+dump
+exit

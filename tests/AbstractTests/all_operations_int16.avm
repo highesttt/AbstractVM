@@ -1,0 +1,52 @@
+; simple math
+push int16(1)
+push int16(2)
+sub
+assert int16(-1)
+
+push int16(-2)
+mul
+assert int16(2)
+
+push int16(2)
+div
+assert int16(1)
+
+push int16(2)
+mod
+dump
+
+; math with numbers of a different type
+clear
+push int32(1)
+push int16(2)
+add
+assert int32(3)
+
+clear
+push int32(2)
+push int16(1)
+sub
+assert int32(1)
+
+clear
+push int32(2)
+push int16(1)
+mul
+assert int32(2)
+
+clear
+push float(2)
+push int16(1)
+div
+assert float(2)
+
+clear
+push int32(2)
+push int16(1)
+mod
+assert int32(0)
+
+dump
+
+exit

@@ -1,0 +1,25 @@
+; simple math
+push double(1)
+push double(2)
+add
+assert double(3)
+clear
+
+push double(1)
+push double(2)
+sub
+assert double(-1)
+
+push double(-2)
+mul
+assert double(2)
+
+push double(2)
+div
+assert double(1)
+
+push double(2)
+mod
+dump
+
+exit

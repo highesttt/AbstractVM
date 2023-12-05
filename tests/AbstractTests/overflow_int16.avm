@@ -1,0 +1,3 @@
+push int16(32768)
+dump
+exit
